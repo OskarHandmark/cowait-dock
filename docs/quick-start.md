@@ -20,7 +20,7 @@ docker pull cowait/task
 
 3. Create a new Cowait task, `hello.py`:
 
-```python:title=hello.py
+```python hello.py
 import asyncio
 from cowait import task
 
@@ -52,7 +52,7 @@ You can visit the UI at `http://localhost:1339`
 
 Cowait tasks are defined with the `async` keyword. This allows us to wait for other tasks in an asynchronous fashion, or to use basic features from `asyncio`, like `sleep(n)`.
 
-```python:title=sleep.py
+```python sleep.py
 import asyncio
 from cowait import task
 
@@ -66,10 +66,10 @@ async def Sleep():
 
 2. Modify the Sleep task to take duration as an input. Also return how long it slept.
 
-   - Inputs that you do not define explicitly in the function signature are passed in `**inputs`.
-   - Outputs can be consumed by other tasks or systems.
+    - Inputs that you do not define explicitly in the function signature are passed in `**inputs`.
+    - Outputs can be consumed by other tasks or systems.
 
-```python:title=sleep.py
+```python sleep.py
 import asyncio
 from cowait import task
 
@@ -94,7 +94,7 @@ cowait run sleep --input duration=7
 
 One of the core features of Cowait is its simple interface to paralellize work on multiple containers. Let's add a new task that spawns multiple `Sleep` tasks in parallel:
 
-```python:title=parallel.py
+```python parallel.py
 import asyncio
 from cowait import task, join
 from sleep import Sleep
