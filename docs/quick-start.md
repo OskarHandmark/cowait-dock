@@ -1,7 +1,3 @@
----
-title: Quick Start
----
-
 This quick start assumes you have intermediate programming skills and are familiar with python, asyncio and Docker.
 
 ## Cowait quick start
