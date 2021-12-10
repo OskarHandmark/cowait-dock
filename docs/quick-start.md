@@ -20,7 +20,7 @@ docker pull cowait/task
 
 3. Create a new Cowait task, `hello.py`:
 
-```python:hello.py
+```python:title=hello.py
 import asyncio
 from cowait import task
 
