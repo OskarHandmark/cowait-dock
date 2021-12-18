@@ -1,6 +1,6 @@
 {
 	"schema": {
-	  "title": "Cowait Documentation",
+	  "title": "Cowait Dock",
 	  "file": "index.md",
 	  "children": [
 		{ "title": "Quick Start", "file": "quick-start.md" },

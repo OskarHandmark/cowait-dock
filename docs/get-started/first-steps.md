@@ -1,7 +1,3 @@
----
-title: First steps
----
-
 Your first steps into the world of Cowait.
 
 ## Overview
@@ -90,9 +86,9 @@ async def Hello(name: str, **inputs):
     }
 ```
 
-- Inputs that you do not define explicitly in the function signature are passed in `**inputs`.
-- You can return whatever you would like, as long as it can be serialized. This work out of the box with python types (`str`, `int`, `float`, `boolean`, `list`, `dict`). You can also [create your own types](/docs/tasks/type-system/)
-- The Cowait CLI allows you to pass inputs when running your task:
+-   Inputs that you do not define explicitly in the function signature are passed in `**inputs`.
+-   You can return whatever you would like, as long as it can be serialized. This work out of the box with python types (`str`, `int`, `float`, `boolean`, `list`, `dict`). You can also [create your own types](/docs/tasks/type-system/)
+-   The Cowait CLI allows you to pass inputs when running your task:
 
 ```shell
 cowait run hello --input name=world
@@ -100,5 +96,5 @@ cowait run hello --input name=world
 
 ## Notes
 
-- `hello` supplied to `cowait run` is the python module name. This module should contain exactly one task class. Modules can be single python files or subdirectories with **init**.py files.
-- The actual function/class name of the task does not matter when running from the CLI, only when importing and executing tasks from python.
+-   `hello` supplied to `cowait run` is the python module name. This module should contain exactly one task class. Modules can be single python files or subdirectories with **init**.py files.
+-   The actual function/class name of the task does not matter when running from the CLI, only when importing and executing tasks from python.

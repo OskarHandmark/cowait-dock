@@ -1,15 +1,11 @@
----
-title: Installation
----
-
 Installing Cowait on your local machine.
 
 ## Requirements
 
 Cowait is a python library that packages and runs tasks in Docker containers, both locally and on [Kubernetes](https://kubernetes.io/). The base requirements are:
 
-- Python 3.6+
-- [Docker](https://docs.docker.com/get-docker/)
+-   Python 3.6+
+-   [Docker](https://docs.docker.com/get-docker/)
 
 ## Installation
 

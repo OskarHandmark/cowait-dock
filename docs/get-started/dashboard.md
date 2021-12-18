@@ -1,7 +1,3 @@
----
-title: Dashboard
----
-
 ## Cowait Agent
 
 The Cowait Agent is capable of picking up information that happen within Cowait in real time. It hosts a UI that allows you to view and interact with your tasks.

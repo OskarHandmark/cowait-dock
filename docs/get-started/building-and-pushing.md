@@ -1,7 +1,3 @@
----
-title: Building and pushing
----
-
 ## Overview
 
 Cowait comes with sensible defaults, but allows you to easily configure certain aspects of your environments, such as docker image names, kubernetes clusters and more.
@@ -33,7 +29,7 @@ To do this, you simply provide your docker image name (and registry) in `cowait.
 ```yml
 version: 1
 cowait:
-  image: docker.io/username/cowait-task
+    image: docker.io/username/cowait-task
 ```
 
 Now, if you run

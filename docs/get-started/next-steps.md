@@ -1,7 +1,3 @@
----
-title: Next steps
----
-
 ## Where to next?
 
 You should now have a grasp of the basic building blocks of Cowait. Of course, you have only scratched the surface. We recommend you read through the [Setup](/docs/setup/configuration) section where you will learn more about setting up Cowait.

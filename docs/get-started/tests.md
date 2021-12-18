@@ -1,7 +1,3 @@
----
-title: Tests
----
-
 ## Overview
 
 Cowait supports testing of tasks, asynchronous code and library code. Cowait uses [pytest](https://docs.pytest.org/en/6.2.x/).
@@ -10,10 +6,10 @@ Writing tests for your asynchronous tasks is simple. The cowait test runner will
 
 Good to know:
 
-- For tests to be picked up by the test runner, make sure to prefix your test files with `test_`.
-- Cowait will run **one** task that will execute all your tests, even if they're in different files.
-- Cowait will create real instances of your tasks if you create them from your test code.
-- Of course, you're free to import library code in the Cowait test runner to unit test smaller building blocks and functions.
+-   For tests to be picked up by the test runner, make sure to prefix your test files with `test_`.
+-   Cowait will run **one** task that will execute all your tests, even if they're in different files.
+-   Cowait will create real instances of your tasks if you create them from your test code.
+-   Of course, you're free to import library code in the Cowait test runner to unit test smaller building blocks and functions.
 
 ## Black box task testing
 

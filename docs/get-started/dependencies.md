@@ -1,7 +1,3 @@
----
-title: Dependency management
----
-
 ## Adding dependencies
 
 Cowait can automatically install Python dependencies as part of the build step. Adding a `requirements.txt` in your project root folder installs the requirements during `cowait build`.
