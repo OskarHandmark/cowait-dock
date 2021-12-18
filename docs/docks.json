@@ -9,7 +9,7 @@
 		{
 		  "title": "Get Started",
 		  "children": [
-			{ "title": "Installation", "file": "get-started/installation.md" },
+			{ "title": "Installation", "file": "get-started/installation.md", "slug": "get-started/installation" },
 			{ "title": "First Steps", "file": "get-started/first-steps.md" },
 			{ "title": "Asyncio", "file": "get-started/asyncio.md" },
 			{ "title": "Dashboard", "file": "get-started/dashboard.md" },
