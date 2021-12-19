@@ -9,7 +9,7 @@
 		{
 		  "title": "Get Started",
 		  "children": [
-			{ "title": "Installation", "file": "get-started/installation.md", "slug": "get-started/installation" },
+			{ "title": "Installation", "file": "get-started/installation.md", "slug": "installz" },
 			{ "title": "First Steps", "file": "get-started/first-steps.md" },
 			{ "title": "Asyncio", "file": "get-started/asyncio.md" },
 			{ "title": "Dashboard", "file": "get-started/dashboard.md" },
@@ -18,6 +18,23 @@
 			{ "title": "Tests", "file": "get-started/tests.md" },
 			{ "title": "Next Steps", "file": "get-started/next-steps.md" }
 		  ]
+		},
+		{
+			"title": "Setup",
+			"children": [
+				{ "title": "Configuration", "file": "setup/configuration.md" },
+				{ "title": "Custom Dockerfile", "file": "setup/custom-dockerfile.md" }
+			]
+		},
+		{
+			"title": "Core Concepts",
+			"children": [
+				{ "title": "Overview", "file": "core-concepts/overview.md" },
+				{ "title": "No Scheduler", "file": "core-concepts/no-scheduler.md" },
+				{ "title": "Task Hierarchy", "file": "core-concepts/task-hierarchy.md" },
+				{ "title": "Everything is a Task", "file": "core-concepts/everything-is-a-task.md" },
+				{ "title": "Engines", "file": "core-concepts/engines.md" }
+			]
 		}
 	  ]
 	}
